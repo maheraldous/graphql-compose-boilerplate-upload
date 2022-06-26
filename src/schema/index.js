@@ -2,7 +2,7 @@
 
 import { TypeComposer, schemaComposer } from 'graphql-compose';
 import { find, filter } from 'lodash';
-import { GraphQLUpload } from 'apollo-upload-server';
+import { GraphQLUpload } from 'graphql-upload';
 
 // #0. Add GraphQLUpload scalar type undeer name Upload to graphql-compose
 schemaComposer.set('Upload', GraphQLUpload);
